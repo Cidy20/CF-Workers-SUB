@@ -3,6 +3,11 @@ main = "_worker.js"
 compatibility_date = "2025-07-23"
 keep_vars = true
 
-#[[kv_namespaces]]
-#binding = "KV"			#KV绑定名默认不可修改
-#id = "7dbef248fcc547d39689967f91f5f46f"					#KV据库id
+[[kv_namespaces]]
+binding = "KV"			#KV绑定名默认不可修改
+id = "46ddd0a534724139bb1a1f0e2a426415"					#KV据库id
+
+[vars]
+SUBAPI = "subapi.w2m.ink"
+SUBCONFIG = "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_MultiCountry.ini"
+TOKEN = "cidy"
